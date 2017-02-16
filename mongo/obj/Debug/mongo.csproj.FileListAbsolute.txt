@@ -1,0 +1,13 @@
+D:\Learning\mongo\mongo\bin\Debug\mongo.exe.config
+D:\Learning\mongo\mongo\bin\Debug\mongo.exe
+D:\Learning\mongo\mongo\bin\Debug\mongo.pdb
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Bson.dll
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Driver.Core.dll
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Driver.dll
+D:\Learning\mongo\mongo\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Bson.xml
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Driver.xml
+D:\Learning\mongo\mongo\bin\Debug\MongoDB.Driver.Core.xml
+D:\Learning\mongo\mongo\obj\Debug\mongo.exe
+D:\Learning\mongo\mongo\obj\Debug\mongo.pdb
+D:\Learning\mongo\mongo\obj\Debug\mongo.csprojResolveAssemblyReference.cache
