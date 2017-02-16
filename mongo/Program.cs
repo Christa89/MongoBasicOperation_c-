@@ -16,8 +16,8 @@ namespace mongo
         static void Main(string[] args)
         {
          //   getAllMongo();
-          //insertMongo();
-            GetMongoById();
+          insertMongo();
+          //  GetMongoById();
         }
 
         private static void insertMongo()
@@ -28,6 +28,7 @@ namespace mongo
             peoplesclass p = new peoplesclass();
             p.name = "christa";
             p.city = "hatton";
+            p.child = new  List<children>{ new children() { cname = "mani", Age = 21 } };
 
             collection.InsertOne(p);
         }
@@ -61,11 +62,10 @@ namespace mongo
                 Console.WriteLine(peo.name);
                 Console.WriteLine(peo.city);
                 Console.WriteLine("-----------");
+                Console.WriteLine("text");
             }
-
           
            Console.Read();
-
         }
 
     } 
@@ -75,6 +75,7 @@ namespace mongo
         public ObjectId id { get; set; }
         public string  name{ get; set; }
         public string city { get; set; }
+        public IList<children> child { get; set; }
         
     }
 }
